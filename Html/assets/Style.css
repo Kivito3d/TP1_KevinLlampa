@@ -1,0 +1,65 @@
+body{
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    background-color: rgb(202, 236, 238);
+    
+}
+
+
+h1{
+     color: rgb(78, 92, 93);
+     text-align: center;
+     font-size: 80px;
+     background-color:rgb(159, 226, 230); ;
+}
+
+img{
+   /*width: 800px;      
+    height:600px;   */  
+    width: 450px;
+    object-fit: cover;
+   
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+article {
+    width: 500px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(93, 93, 93);
+    margin: 15px;
+}
+
+.navegacion{
+    height: 170px;
+    display: flex;
+    background-color: rgb(60, 60, 67);
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    color: azure;
+    font-size: 40px;
+}
+a{
+    color: bisque;
+    text-decoration: none;
+    font-size: 22px;
+}
+.men{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    margin: 50px;
+
+}
+h2{
+    font-size: 35px;
+}

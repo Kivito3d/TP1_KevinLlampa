@@ -1,16 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Hola Mundo</title>
-</head>
-<body>
-    <h1>Portfolio Kevin Llampa</h1>
-    <p>Aqui comienza el perfil de trabajo</p>
-    
+  </head>
+  <body>
+    <h1>Proyectos Kevin Llampa</h1>
 
+    <body>
+      <header class="navegacion">
+        <div><h2>Portfolio</h2></div>
+        <nav>
+          <ul class="men">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="perfil.html">Perfil</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <aside>
+          <h3>Filtros de Busqueda</h3>
+          <label for="categoria">Categoría:</label>
+          <select name="categoria" id="categoria">
+            <option value="web">Acceso</option>
+            <option value="web">Control</option>
+            <option value="web">Educacion</option>
+            <option value="web">Gestion</option>
+            <option value="videojuegos">Videojuegos</option>
+            <option value="web">Web</option>
+          </select>
 
-</body>
+          <label for="state">Estado:</label>
+          <select name="state" id="state">
+            <option value="curso">En curso</option>
+            <option value="finalizado">Finalizado</option>
+          </select>
+        </aside>
+
+        <div>
+          <article class="posteo">
+            <h2><u>Atraves de los Ojos de mi Hermanito</u></h2>
+            <img src="assets/img/pr1.png" />
+            <p>
+              Proyecto para el programa "Potenciar la industria de los
+              Videojuegos"
+            </p>
+            <p><b>Categoria: </b>Juego</p>
+          </article>
+          <article class="posteo">
+            <h2><u>Backrooms</u></h2>
+            <img src="assets/img/pr2.png" />
+            <p>Proyecto Final de la Carrera TUDIVJ</p>
+            <p><b>Categoria: </b>Juego</p>
+          </article>
+          <article class="posteo">
+            <h2><u>Practica de Estilizado</u></h2>
+            <img src="assets/img/p3.png" />
+            <p>Proyecto personal para practicar estilo stilylized</p>
+            <p><b>Categoria: </b>Portfolio Personal</p>
+          </article>
+          <article class="posteo">
+            <h2><u>Minotron</u></h2>
+            <img src="assets/img/p4.png" />
+            <p>Proyecto de Egresados de TUDIVJ</p>
+            <p><b>Categoria: </b>Juego</p>
+          </article>
+          <article class="posteo">
+            <h2><u>Gas Mask</u></h2>
+            <img src="assets/img/p5.png" />
+            <p>Prop realizado en el bootcamp de Collider Craftworks</p>
+            <p><b>Categoria: </b>Portfolio Personal</p>
+          </article>
+        </div>
+      </main>
+    </body>
+  </body>
 </html>
